@@ -4,7 +4,7 @@ namespace ComercializadoraPM_App
 {
     public class Conexion
     {
-        private SqlConnection conexion = new SqlConnection("Server=localhost;Database=ComercializadoraPM;Trusted_Connection=True;");
+        private SqlConnection conexion = new SqlConnection("Server=JESS_LOPEZ\\SQLEXPRESS;Database=ComercializadoraPM;Trusted_Connection=True;");
 
         public SqlConnection AbrirConexion()
         {
