@@ -8,8 +8,11 @@ using System.Threading.Tasks;
 namespace ComercializadoraBD2
 {
     internal class Conexion
+
     {
-        private static string cadena = "Server=JESS_LOPEZ\\SQLEXPRESS;Database=ComercializadoraPM;Trusted_Connection=True;";
+
+        private static string cadena = "Server=LAPTOP-8USMMMRA\\SQLEXPRESS;Database=ComercializadoraMP;Trusted_Connection=True;";
+      
 
         public static SqlConnection ObtenerConexion()
         {
