@@ -9,7 +9,7 @@ namespace ComercializadoraBD2
 {
     internal class Conexion
     {
-        private static string cadena = "Server=JESS_LOPEZ\\SQLEXPRESS;Database=ComercializadoraPM;Trusted_Connection=True;";
+        private static string cadena = "Server=localhost;Database=ComercializadoraPM;Trusted_Connection=True;\r\nServer=localhost;Database=ComercializadoraPM;Trusted_Connection=True;";
 
         public static SqlConnection ObtenerConexion()
         {

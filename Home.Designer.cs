@@ -169,9 +169,10 @@
             this.btnSeguridad.Name = "btnSeguridad";
             this.btnSeguridad.Size = new System.Drawing.Size(252, 59);
             this.btnSeguridad.TabIndex = 4;
-            this.btnSeguridad.Text = "Seguridad";
+            this.btnSeguridad.Text = "Cerrar Sesión";
             this.btnSeguridad.UseVisualStyleBackColor = true;
             this.btnSeguridad.UseWaitCursor = true;
+            this.btnSeguridad.Click += new System.EventHandler(this.btnSeguridad_Click);
             // 
             // btnSlice
             // 

@@ -73,5 +73,10 @@ namespace ComercializadoraBD2
         {
             AbrirFormulario(new FrmCompras());
         }
+
+        private void btnSeguridad_Click(object sender, EventArgs e)
+        {
+            this.Close(); //Terminar el programa
+        }
     }
 }
