@@ -155,6 +155,12 @@
     <Compile Include="FrmRecepciones.Designer.cs">
       <DependentUpon>FrmRecepciones.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmSeguridad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSeguridad.Designer.cs">
+      <DependentUpon>FrmSeguridad.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmVentas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -268,8 +274,13 @@
     <EmbeddedResource Include="FrmProductos.resx">
       <DependentUpon>FrmProductos.cs</DependentUpon>
     </EmbeddedResource>
+<<<<<<< Updated upstream
     <EmbeddedResource Include="FrmRecepciones.resx">
       <DependentUpon>FrmRecepciones.cs</DependentUpon>
+=======
+    <EmbeddedResource Include="FrmSeguridad.resx">
+      <DependentUpon>FrmSeguridad.cs</DependentUpon>
+>>>>>>> Stashed changes
     </EmbeddedResource>
     <EmbeddedResource Include="frmVentas.resx">
       <DependentUpon>frmVentas.cs</DependentUpon>
