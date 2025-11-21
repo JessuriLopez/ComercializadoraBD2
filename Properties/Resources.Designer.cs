@@ -93,6 +93,16 @@ namespace ComercializadoraBD2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap hoja_de_calculo {
+            get {
+                object obj = ResourceManager.GetObject("hoja-de-calculo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap interseccion {
             get {
                 object obj = ResourceManager.GetObject("interseccion", resourceCulture);

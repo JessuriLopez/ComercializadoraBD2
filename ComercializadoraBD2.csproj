@@ -77,17 +77,53 @@
     <Compile Include="FrmCuentasBancarias.Designer.cs">
       <DependentUpon>FrmCuentasBancarias.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmDetalleDevolucionProveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDetalleDevolucionProveedores.Designer.cs">
+      <DependentUpon>FrmDetalleDevolucionProveedores.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmDetalleOrdenCompra.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmDetalleOrdenCompra.Designer.cs">
       <DependentUpon>FrmDetalleOrdenCompra.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmDetalleRecepcion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDetalleRecepcion.Designer.cs">
+      <DependentUpon>FrmDetalleRecepcion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDevolucionProveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDevolucionProveedores.Designer.cs">
+      <DependentUpon>FrmDevolucionProveedores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmInicioDevolucionesProveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmInicioDevolucionesProveedor.Designer.cs">
+      <DependentUpon>FrmInicioDevolucionesProveedor.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmInicioOrdenesCompras.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmInicioOrdenesCompras.Designer.cs">
       <DependentUpon>FrmInicioOrdenesCompras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmInicioRecepciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmInicioRecepciones.Designer.cs">
+      <DependentUpon>FrmInicioRecepciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmInicioReportes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmInicioReportes.Designer.cs">
+      <DependentUpon>FrmInicioReportes.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmInventario.cs">
       <SubType>Form</SubType>
@@ -113,17 +149,65 @@
     <Compile Include="FrmProductos.Designer.cs">
       <DependentUpon>FrmProductos.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmRecepciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRecepciones.Designer.cs">
+      <DependentUpon>FrmRecepciones.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmVentas.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmVentas.Designer.cs">
       <DependentUpon>frmVentas.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmVerDevoluciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVerDevoluciones.Designer.cs">
+      <DependentUpon>FrmVerDevoluciones.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmVerOrdenesDeCompra.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmVerOrdenesDeCompra.Designer.cs">
       <DependentUpon>FrmVerOrdenesDeCompra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVerRecepciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVerRecepciones.Designer.cs">
+      <DependentUpon>FrmVerRecepciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVista1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVista1.Designer.cs">
+      <DependentUpon>FrmVista1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVista2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVista2.Designer.cs">
+      <DependentUpon>FrmVista2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVista3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVista3.Designer.cs">
+      <DependentUpon>FrmVista3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVista4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVista4.Designer.cs">
+      <DependentUpon>FrmVista4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVista5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVista5.Designer.cs">
+      <DependentUpon>FrmVista5.cs</DependentUpon>
     </Compile>
     <Compile Include="Home.cs">
       <SubType>Form</SubType>
@@ -148,11 +232,29 @@
     <EmbeddedResource Include="FrmCuentasBancarias.resx">
       <DependentUpon>FrmCuentasBancarias.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmDetalleDevolucionProveedores.resx">
+      <DependentUpon>FrmDetalleDevolucionProveedores.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmDetalleOrdenCompra.resx">
       <DependentUpon>FrmDetalleOrdenCompra.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmDetalleRecepcion.resx">
+      <DependentUpon>FrmDetalleRecepcion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDevolucionProveedores.resx">
+      <DependentUpon>FrmDevolucionProveedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmInicioDevolucionesProveedor.resx">
+      <DependentUpon>FrmInicioDevolucionesProveedor.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmInicioOrdenesCompras.resx">
       <DependentUpon>FrmInicioOrdenesCompras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmInicioRecepciones.resx">
+      <DependentUpon>FrmInicioRecepciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmInicioReportes.resx">
+      <DependentUpon>FrmInicioReportes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmInventario.resx">
       <DependentUpon>FrmInventario.cs</DependentUpon>
@@ -166,11 +268,35 @@
     <EmbeddedResource Include="FrmProductos.resx">
       <DependentUpon>FrmProductos.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmRecepciones.resx">
+      <DependentUpon>FrmRecepciones.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmVentas.resx">
       <DependentUpon>frmVentas.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmVerDevoluciones.resx">
+      <DependentUpon>FrmVerDevoluciones.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmVerOrdenesDeCompra.resx">
       <DependentUpon>FrmVerOrdenesDeCompra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVerRecepciones.resx">
+      <DependentUpon>FrmVerRecepciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVista1.resx">
+      <DependentUpon>FrmVista1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVista2.resx">
+      <DependentUpon>FrmVista2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVista3.resx">
+      <DependentUpon>FrmVista3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVista4.resx">
+      <DependentUpon>FrmVista4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVista5.resx">
+      <DependentUpon>FrmVista5.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
@@ -218,6 +344,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\devolucion-de-dinero.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hoja-de-calculo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

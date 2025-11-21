@@ -73,5 +73,10 @@ namespace ComercializadoraBD2
         {
             AbrirFormulario(new FrmCompras());
         }
+
+        private void btnReportes_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario(new FrmInicioReportes());
+        }
     }
 }

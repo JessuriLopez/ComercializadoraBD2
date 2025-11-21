@@ -73,6 +73,7 @@
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 7;
             this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // label3
             // 
@@ -99,6 +100,7 @@
             this.btnDevolucionProveedores.TabIndex = 5;
             this.btnDevolucionProveedores.UseVisualStyleBackColor = false;
             this.btnDevolucionProveedores.UseWaitCursor = true;
+            this.btnDevolucionProveedores.Click += new System.EventHandler(this.btnDevolucionProveedores_Click);
             // 
             // panel3
             // 
@@ -122,6 +124,7 @@
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 7;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // label2
             // 
@@ -148,6 +151,7 @@
             this.btnRecepcionesCompras.TabIndex = 5;
             this.btnRecepcionesCompras.UseVisualStyleBackColor = false;
             this.btnRecepcionesCompras.UseWaitCursor = true;
+            this.btnRecepcionesCompras.Click += new System.EventHandler(this.btnRecepcionesCompras_Click);
             // 
             // panel2
             // 
@@ -232,7 +236,8 @@
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmCompras";
-            this.Text = "FrmCompras";
+            this.Text = "te";
+            this.Load += new System.EventHandler(this.FrmCompras_Load);
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
