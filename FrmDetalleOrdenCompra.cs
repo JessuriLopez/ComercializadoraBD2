@@ -64,6 +64,8 @@ namespace ComercializadoraBD2
 
         }
 
+
+
         private void ActualizarTotalesOrden()
         {
             using (SqlConnection con = Conexion.ObtenerConexion())
@@ -292,6 +294,17 @@ namespace ComercializadoraBD2
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void btnGuardar_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Datos guardados correctamente.", "Éxito",
+            MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            this.Close();
+
+            if (this.Owner != null)
+                this.Owner.Close();
         }
     }
 }

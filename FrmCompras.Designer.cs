@@ -62,7 +62,22 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(200, 297);
             this.panel4.TabIndex = 27;
+<<<<<<< HEAD
             this.panel4.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
+=======
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.pictureBox3.Image = global::ComercializadoraBD2.Properties.Resources.devolucion_de_dinero;
+            this.pictureBox3.Location = new System.Drawing.Point(12, 59);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(166, 221);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 7;
+            this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
+>>>>>>> fb77e96df6c8f08e345c3e9b2f83d5041fb7fabd
             // 
             // label3
             // 
@@ -89,6 +104,7 @@
             this.btnDevolucionProveedores.TabIndex = 5;
             this.btnDevolucionProveedores.UseVisualStyleBackColor = false;
             this.btnDevolucionProveedores.UseWaitCursor = true;
+            this.btnDevolucionProveedores.Click += new System.EventHandler(this.btnDevolucionProveedores_Click);
             // 
             // panel3
             // 
@@ -102,6 +118,21 @@
             this.panel3.Size = new System.Drawing.Size(206, 297);
             this.panel3.TabIndex = 28;
             // 
+<<<<<<< HEAD
+=======
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.pictureBox2.Image = global::ComercializadoraBD2.Properties.Resources.recibio;
+            this.pictureBox2.Location = new System.Drawing.Point(21, 59);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(166, 221);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 7;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            // 
+>>>>>>> fb77e96df6c8f08e345c3e9b2f83d5041fb7fabd
             // label2
             // 
             this.label2.AutoSize = true;
@@ -127,6 +158,7 @@
             this.btnRecepcionesCompras.TabIndex = 5;
             this.btnRecepcionesCompras.UseVisualStyleBackColor = false;
             this.btnRecepcionesCompras.UseWaitCursor = true;
+            this.btnRecepcionesCompras.Click += new System.EventHandler(this.btnRecepcionesCompras_Click);
             // 
             // panel2
             // 
@@ -234,7 +266,11 @@
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmCompras";
+<<<<<<< HEAD
             this.Text = "FrmCompras";
+=======
+            this.Text = "te";
+>>>>>>> fb77e96df6c8f08e345c3e9b2f83d5041fb7fabd
             this.Load += new System.EventHandler(this.FrmCompras_Load);
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();

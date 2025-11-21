@@ -193,6 +193,7 @@ namespace ComercializadoraBD2
         private void btnDetallesOrdenCompra_Click(object sender, EventArgs e)
         {
             FrmDetalleOrdenCompra frm = new FrmDetalleOrdenCompra();
+            frm.Owner = this;
             frm.OrdenCompraID = this.OrdenCompraID; 
             frm.ShowDialog();
         }

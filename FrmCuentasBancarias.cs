@@ -17,7 +17,21 @@ namespace ComercializadoraBD2
             InitializeComponent();
         }
 
+<<<<<<< HEAD
         private void FrmCuentasBancarias_Load(object sender, EventArgs e)
+=======
+        private void btnAgregar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnVer_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnEditar_Click(object sender, EventArgs e)
+>>>>>>> fb77e96df6c8f08e345c3e9b2f83d5041fb7fabd
         {
 
         }

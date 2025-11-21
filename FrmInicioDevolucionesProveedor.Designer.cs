@@ -1,6 +1,6 @@
 ﻿namespace ComercializadoraBD2
 {
-    partial class FrmInicioOrdenesCompras
+    partial class FrmInicioDevolucionesProveedor
     {
         /// <summary>
         /// Required designer variable.
@@ -28,36 +28,36 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnVerOrdenes = new System.Windows.Forms.Button();
-            this.btnGuardarOrden = new System.Windows.Forms.Button();
+            this.btnAgregarDevolucion = new System.Windows.Forms.Button();
+            this.btnVerDevouciones = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label8 = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
-            // btnVerOrdenes
+            // btnAgregarDevolucion
             // 
-            this.btnVerOrdenes.BackColor = System.Drawing.Color.PaleGoldenrod;
-            this.btnVerOrdenes.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVerOrdenes.Location = new System.Drawing.Point(154, 89);
-            this.btnVerOrdenes.Name = "btnVerOrdenes";
-            this.btnVerOrdenes.Size = new System.Drawing.Size(177, 215);
-            this.btnVerOrdenes.TabIndex = 26;
-            this.btnVerOrdenes.Text = "Ver Ordenes";
-            this.btnVerOrdenes.UseVisualStyleBackColor = false;
-            this.btnVerOrdenes.Click += new System.EventHandler(this.btnVerOrdenes_Click);
+            this.btnAgregarDevolucion.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.btnAgregarDevolucion.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAgregarDevolucion.Location = new System.Drawing.Point(446, 91);
+            this.btnAgregarDevolucion.Name = "btnAgregarDevolucion";
+            this.btnAgregarDevolucion.Size = new System.Drawing.Size(179, 215);
+            this.btnAgregarDevolucion.TabIndex = 32;
+            this.btnAgregarDevolucion.Text = "Agregar devolucion";
+            this.btnAgregarDevolucion.UseVisualStyleBackColor = false;
+            this.btnAgregarDevolucion.Click += new System.EventHandler(this.btnAgregarDevolucion_Click);
             // 
-            // btnGuardarOrden
+            // btnVerDevouciones
             // 
-            this.btnGuardarOrden.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.btnGuardarOrden.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGuardarOrden.Location = new System.Drawing.Point(452, 89);
-            this.btnGuardarOrden.Name = "btnGuardarOrden";
-            this.btnGuardarOrden.Size = new System.Drawing.Size(179, 215);
-            this.btnGuardarOrden.TabIndex = 28;
-            this.btnGuardarOrden.Text = "Agregar Orden";
-            this.btnGuardarOrden.UseVisualStyleBackColor = false;
-            this.btnGuardarOrden.Click += new System.EventHandler(this.btnGuardarOrden_Click);
+            this.btnVerDevouciones.BackColor = System.Drawing.Color.PaleGoldenrod;
+            this.btnVerDevouciones.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVerDevouciones.Location = new System.Drawing.Point(106, 91);
+            this.btnVerDevouciones.Name = "btnVerDevouciones";
+            this.btnVerDevouciones.Size = new System.Drawing.Size(177, 215);
+            this.btnVerDevouciones.TabIndex = 31;
+            this.btnVerDevouciones.Text = "Ver Registro de Devoluciones";
+            this.btnVerDevouciones.UseVisualStyleBackColor = false;
+            this.btnVerDevouciones.Click += new System.EventHandler(this.btnVerDevouciones_Click);
             // 
             // panel2
             // 
@@ -66,8 +66,8 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(786, 63);
-            this.panel2.TabIndex = 30;
+            this.panel2.Size = new System.Drawing.Size(780, 63);
+            this.panel2.TabIndex = 33;
             // 
             // label8
             // 
@@ -80,29 +80,27 @@
             this.label8.TabIndex = 21;
             this.label8.Text = "Modulo de Compras";
             // 
-            // FrmInicioOrdenesCompras
+            // FrmInicioDevolucionesProveedor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(786, 397);
+            this.ClientSize = new System.Drawing.Size(780, 397);
             this.Controls.Add(this.panel2);
-            this.Controls.Add(this.btnGuardarOrden);
-            this.Controls.Add(this.btnVerOrdenes);
-            this.Name = "FrmInicioOrdenesCompras";
-            this.Text = "FrmInicioOrdenesCompras";
-            this.Load += new System.EventHandler(this.FrmInicioOrdenesCompras_Load);
-<<<<<<< HEAD
-=======
+            this.Controls.Add(this.btnAgregarDevolucion);
+            this.Controls.Add(this.btnVerDevouciones);
+            this.Name = "FrmInicioDevolucionesProveedor";
+            this.Text = "FrmInicioDevolucionesProveedor";
+            this.Load += new System.EventHandler(this.FrmInicioDevolucionesProveedor_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
->>>>>>> fb77e96df6c8f08e345c3e9b2f83d5041fb7fabd
             this.ResumeLayout(false);
 
         }
 
         #endregion
-        private System.Windows.Forms.Button btnVerOrdenes;
-        private System.Windows.Forms.Button btnGuardarOrden;
+
+        private System.Windows.Forms.Button btnAgregarDevolucion;
+        private System.Windows.Forms.Button btnVerDevouciones;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label8;
     }

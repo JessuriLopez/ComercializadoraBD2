@@ -79,6 +79,7 @@
             this.btnReportes.Text = "Reportes";
             this.btnReportes.UseVisualStyleBackColor = true;
             this.btnReportes.UseWaitCursor = true;
+            this.btnReportes.Click += new System.EventHandler(this.btnReportes_Click);
             // 
             // btnFinanzas
             // 
@@ -170,10 +171,25 @@
             this.btnSeguridad.Name = "btnSeguridad";
             this.btnSeguridad.Size = new System.Drawing.Size(252, 59);
             this.btnSeguridad.TabIndex = 4;
-            this.btnSeguridad.Text = "Seguridad";
+            this.btnSeguridad.Text = "Cerrar Sesión";
             this.btnSeguridad.UseVisualStyleBackColor = true;
             this.btnSeguridad.UseWaitCursor = true;
             this.btnSeguridad.Click += new System.EventHandler(this.btnSeguridad_Click);
+<<<<<<< HEAD
+=======
+            // 
+            // btnSlice
+            // 
+            this.btnSlice.Image = ((System.Drawing.Image)(resources.GetObject("btnSlice.Image")));
+            this.btnSlice.Location = new System.Drawing.Point(12, 31);
+            this.btnSlice.Name = "btnSlice";
+            this.btnSlice.Size = new System.Drawing.Size(61, 53);
+            this.btnSlice.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btnSlice.TabIndex = 1;
+            this.btnSlice.TabStop = false;
+            this.btnSlice.UseWaitCursor = true;
+            this.btnSlice.Click += new System.EventHandler(this.btnSlice_Click);
+>>>>>>> fb77e96df6c8f08e345c3e9b2f83d5041fb7fabd
             // 
             // panelContenedor
             // 

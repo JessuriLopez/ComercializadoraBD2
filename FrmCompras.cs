@@ -37,6 +37,7 @@ namespace ComercializadoraBD2
 
         }
 
+<<<<<<< HEAD
         private void pictureBox3_Click(object sender, EventArgs e)
         {
 
@@ -45,6 +46,33 @@ namespace ComercializadoraBD2
         private void panel4_Paint(object sender, PaintEventArgs e)
         {
 
+=======
+        private void btnRecepcionesCompras_Click(object sender, EventArgs e)
+        {
+            FrmInicioRecepciones f = new FrmInicioRecepciones();
+            this.Hide();
+            f.ShowDialog();
+            this.Show();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            btnRecepcionesCompras.PerformClick();
+        }
+
+        private void btnDevolucionProveedores_Click(object sender, EventArgs e)
+        {
+            FrmInicioDevolucionesProveedor f = new FrmInicioDevolucionesProveedor();
+            this.Hide();
+            f.ShowDialog();
+            this.Show();
+
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            btnDevolucionProveedores.PerformClick();
+>>>>>>> fb77e96df6c8f08e345c3e9b2f83d5041fb7fabd
         }
     }
 }

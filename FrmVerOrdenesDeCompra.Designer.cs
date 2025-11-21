@@ -36,13 +36,13 @@
             this.dgvDetalles = new System.Windows.Forms.DataGridView();
             this.txtBuscar = new System.Windows.Forms.TextBox();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.lblTotal = new System.Windows.Forms.Label();
+            this.lblImpuesto = new System.Windows.Forms.Label();
+            this.lblSubTotal = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.lblSubTotal = new System.Windows.Forms.Label();
-            this.lblImpuesto = new System.Windows.Forms.Label();
-            this.lblTotal = new System.Windows.Forms.Label();
             this.btnActualizar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvOrdenes)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDetalles)).BeginInit();
@@ -142,6 +142,33 @@
             this.panel4.Size = new System.Drawing.Size(945, 141);
             this.panel4.TabIndex = 33;
             // 
+            // lblTotal
+            // 
+            this.lblTotal.AutoSize = true;
+            this.lblTotal.Location = new System.Drawing.Point(811, 78);
+            this.lblTotal.Name = "lblTotal";
+            this.lblTotal.Size = new System.Drawing.Size(44, 16);
+            this.lblTotal.TabIndex = 31;
+            this.lblTotal.Text = "label1";
+            // 
+            // lblImpuesto
+            // 
+            this.lblImpuesto.AutoSize = true;
+            this.lblImpuesto.Location = new System.Drawing.Point(543, 82);
+            this.lblImpuesto.Name = "lblImpuesto";
+            this.lblImpuesto.Size = new System.Drawing.Size(44, 16);
+            this.lblImpuesto.TabIndex = 30;
+            this.lblImpuesto.Text = "label1";
+            // 
+            // lblSubTotal
+            // 
+            this.lblSubTotal.AutoSize = true;
+            this.lblSubTotal.Location = new System.Drawing.Point(169, 81);
+            this.lblSubTotal.Name = "lblSubTotal";
+            this.lblSubTotal.Size = new System.Drawing.Size(44, 16);
+            this.lblSubTotal.TabIndex = 29;
+            this.lblSubTotal.Text = "label1";
+            // 
             // label20
             // 
             this.label20.AutoSize = true;
@@ -182,33 +209,6 @@
             this.label2.Size = new System.Drawing.Size(51, 20);
             this.label2.TabIndex = 14;
             this.label2.Text = "Total";
-            // 
-            // lblSubTotal
-            // 
-            this.lblSubTotal.AutoSize = true;
-            this.lblSubTotal.Location = new System.Drawing.Point(169, 81);
-            this.lblSubTotal.Name = "lblSubTotal";
-            this.lblSubTotal.Size = new System.Drawing.Size(44, 16);
-            this.lblSubTotal.TabIndex = 29;
-            this.lblSubTotal.Text = "label1";
-            // 
-            // lblImpuesto
-            // 
-            this.lblImpuesto.AutoSize = true;
-            this.lblImpuesto.Location = new System.Drawing.Point(543, 82);
-            this.lblImpuesto.Name = "lblImpuesto";
-            this.lblImpuesto.Size = new System.Drawing.Size(44, 16);
-            this.lblImpuesto.TabIndex = 30;
-            this.lblImpuesto.Text = "label1";
-            // 
-            // lblTotal
-            // 
-            this.lblTotal.AutoSize = true;
-            this.lblTotal.Location = new System.Drawing.Point(811, 78);
-            this.lblTotal.Name = "lblTotal";
-            this.lblTotal.Size = new System.Drawing.Size(44, 16);
-            this.lblTotal.TabIndex = 31;
-            this.lblTotal.Text = "label1";
             // 
             // btnActualizar
             // 
