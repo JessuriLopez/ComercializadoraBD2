@@ -297,6 +297,7 @@
             this.Controls.Add(this.btnEditar);
             this.Name = "FrmCuentasBancarias";
             this.Text = "FrmCuentasBancarias";
+            this.Load += new System.EventHandler(this.FrmCuentasBancarias_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvProveedores)).EndInit();

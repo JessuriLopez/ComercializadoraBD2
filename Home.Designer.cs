@@ -37,13 +37,13 @@
             this.btnCompras = new System.Windows.Forms.Button();
             this.btnInventario = new System.Windows.Forms.Button();
             this.btnSeguridad = new System.Windows.Forms.Button();
-            this.btnSlice = new System.Windows.Forms.PictureBox();
             this.panelContenedor = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnSlice = new System.Windows.Forms.PictureBox();
             this.MenuVertical.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.btnSlice)).BeginInit();
             this.panelContenedor.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnSlice)).BeginInit();
             this.SuspendLayout();
             // 
             // MenuVertical
@@ -94,6 +94,7 @@
             this.btnFinanzas.Text = "Finanzas";
             this.btnFinanzas.UseVisualStyleBackColor = true;
             this.btnFinanzas.UseWaitCursor = true;
+            this.btnFinanzas.Click += new System.EventHandler(this.btnFinanzas_Click);
             // 
             // btnProduccion
             // 
@@ -172,27 +173,16 @@
             this.btnSeguridad.Text = "Seguridad";
             this.btnSeguridad.UseVisualStyleBackColor = true;
             this.btnSeguridad.UseWaitCursor = true;
-            // 
-            // btnSlice
-            // 
-            this.btnSlice.Image = ((System.Drawing.Image)(resources.GetObject("btnSlice.Image")));
-            this.btnSlice.Location = new System.Drawing.Point(12, 31);
-            this.btnSlice.Name = "btnSlice";
-            this.btnSlice.Size = new System.Drawing.Size(61, 53);
-            this.btnSlice.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.btnSlice.TabIndex = 1;
-            this.btnSlice.TabStop = false;
-            this.btnSlice.UseWaitCursor = true;
-            this.btnSlice.Click += new System.EventHandler(this.btnSlice_Click);
+            this.btnSeguridad.Click += new System.EventHandler(this.btnSeguridad_Click);
             // 
             // panelContenedor
             // 
             this.panelContenedor.BackColor = System.Drawing.Color.MistyRose;
             this.panelContenedor.Controls.Add(this.pictureBox1);
             this.panelContenedor.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panelContenedor.Location = new System.Drawing.Point(293, 58);
+            this.panelContenedor.Location = new System.Drawing.Point(293, 0);
             this.panelContenedor.Name = "panelContenedor";
-            this.panelContenedor.Size = new System.Drawing.Size(854, 737);
+            this.panelContenedor.Size = new System.Drawing.Size(854, 795);
             this.panelContenedor.TabIndex = 4;
             this.panelContenedor.Paint += new System.Windows.Forms.PaintEventHandler(this.panelContenedor_Paint);
             // 
@@ -206,6 +196,18 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
+            // btnSlice
+            // 
+            this.btnSlice.Image = ((System.Drawing.Image)(resources.GetObject("btnSlice.Image")));
+            this.btnSlice.Location = new System.Drawing.Point(12, 31);
+            this.btnSlice.Name = "btnSlice";
+            this.btnSlice.Size = new System.Drawing.Size(61, 53);
+            this.btnSlice.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btnSlice.TabIndex = 1;
+            this.btnSlice.TabStop = false;
+            this.btnSlice.UseWaitCursor = true;
+            this.btnSlice.Click += new System.EventHandler(this.btnSlice_Click);
+            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -216,10 +218,11 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Home";
             this.Text = "Home";
+            this.Load += new System.EventHandler(this.Home_Load);
             this.MenuVertical.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.btnSlice)).EndInit();
             this.panelContenedor.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnSlice)).EndInit();
             this.ResumeLayout(false);
 
         }

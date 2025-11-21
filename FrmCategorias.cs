@@ -156,5 +156,10 @@ namespace ComercializadoraBD2
                 textDescripcion.Text = fila.Cells["Descripcion"].Value.ToString();
             }
         }
+
+        private void FrmCategorias_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

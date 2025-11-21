@@ -29,11 +29,12 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label8 = new System.Windows.Forms.Label();
+            this.chkPrecioEspecial = new System.Windows.Forms.CheckBox();
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.btnEditar = new System.Windows.Forms.Button();
             this.cmbTipo = new System.Windows.Forms.ComboBox();
             this.btnAgregar = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
@@ -45,11 +46,10 @@
             this.txtTelefono = new System.Windows.Forms.TextBox();
             this.txtEmail = new System.Windows.Forms.TextBox();
             this.txtDireccion = new System.Windows.Forms.TextBox();
+            this.btnEditar = new System.Windows.Forms.Button();
             this.dgvClientes = new System.Windows.Forms.DataGridView();
             this.btnEliminar = new System.Windows.Forms.Button();
             this.btnVer = new System.Windows.Forms.Button();
-            this.chkPrecioEspecial = new System.Windows.Forms.CheckBox();
-            this.label8 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvClientes)).BeginInit();
             this.SuspendLayout();
@@ -79,6 +79,29 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(528, 538);
             this.panel1.TabIndex = 24;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Bernard MT Condensed", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.Navy;
+            this.label8.Location = new System.Drawing.Point(32, 55);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(155, 24);
+            this.label8.TabIndex = 22;
+            this.label8.Text = "Datos del Cliente";
+            // 
+            // chkPrecioEspecial
+            // 
+            this.chkPrecioEspecial.AutoSize = true;
+            this.chkPrecioEspecial.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkPrecioEspecial.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.chkPrecioEspecial.Location = new System.Drawing.Point(170, 369);
+            this.chkPrecioEspecial.Name = "chkPrecioEspecial";
+            this.chkPrecioEspecial.Size = new System.Drawing.Size(163, 24);
+            this.chkPrecioEspecial.TabIndex = 21;
+            this.chkPrecioEspecial.Text = "Precio Especial";
+            this.chkPrecioEspecial.UseVisualStyleBackColor = true;
             // 
             // txtNombre
             // 
@@ -117,18 +140,6 @@
             this.label6.Size = new System.Drawing.Size(45, 20);
             this.label6.TabIndex = 18;
             this.label6.Text = "Tipo";
-            // 
-            // btnEditar
-            // 
-            this.btnEditar.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.btnEditar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEditar.Location = new System.Drawing.Point(547, 460);
-            this.btnEditar.Name = "btnEditar";
-            this.btnEditar.Size = new System.Drawing.Size(142, 44);
-            this.btnEditar.TabIndex = 8;
-            this.btnEditar.Text = "Editar";
-            this.btnEditar.UseVisualStyleBackColor = false;
-            this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
             // 
             // cmbTipo
             // 
@@ -234,6 +245,18 @@
             this.txtDireccion.Size = new System.Drawing.Size(276, 27);
             this.txtDireccion.TabIndex = 4;
             // 
+            // btnEditar
+            // 
+            this.btnEditar.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.btnEditar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEditar.Location = new System.Drawing.Point(547, 460);
+            this.btnEditar.Name = "btnEditar";
+            this.btnEditar.Size = new System.Drawing.Size(142, 44);
+            this.btnEditar.TabIndex = 8;
+            this.btnEditar.Text = "Editar";
+            this.btnEditar.UseVisualStyleBackColor = false;
+            this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
+            // 
             // dgvClientes
             // 
             this.dgvClientes.BackgroundColor = System.Drawing.SystemColors.GradientActiveCaption;
@@ -270,29 +293,6 @@
             this.btnVer.UseVisualStyleBackColor = false;
             this.btnVer.Click += new System.EventHandler(this.btnVer_Click);
             // 
-            // chkPrecioEspecial
-            // 
-            this.chkPrecioEspecial.AutoSize = true;
-            this.chkPrecioEspecial.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkPrecioEspecial.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.chkPrecioEspecial.Location = new System.Drawing.Point(170, 369);
-            this.chkPrecioEspecial.Name = "chkPrecioEspecial";
-            this.chkPrecioEspecial.Size = new System.Drawing.Size(163, 24);
-            this.chkPrecioEspecial.TabIndex = 21;
-            this.chkPrecioEspecial.Text = "Precio Especial";
-            this.chkPrecioEspecial.UseVisualStyleBackColor = true;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Bernard MT Condensed", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.Navy;
-            this.label8.Location = new System.Drawing.Point(32, 55);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(155, 24);
-            this.label8.TabIndex = 22;
-            this.label8.Text = "Datos del Cliente";
-            // 
             // ClientesCRUD
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -306,6 +306,7 @@
             this.Controls.Add(this.btnEditar);
             this.Name = "ClientesCRUD";
             this.Text = "ClientesCRUD";
+            this.Load += new System.EventHandler(this.ClientesCRUD_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvClientes)).EndInit();

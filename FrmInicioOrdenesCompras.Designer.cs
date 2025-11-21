@@ -65,6 +65,7 @@
             this.Controls.Add(this.btnVerOrdenes);
             this.Name = "FrmInicioOrdenesCompras";
             this.Text = "FrmInicioOrdenesCompras";
+            this.Load += new System.EventHandler(this.FrmInicioOrdenesCompras_Load);
             this.ResumeLayout(false);
 
         }

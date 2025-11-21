@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace ComercializadoraBD2
 {
-    public partial class FrmCuentasBancarias : Form
+    public partial class FrmPagosProveedor1 : Form
     {
-        public FrmCuentasBancarias()
+        public FrmPagosProveedor1()
         {
             InitializeComponent();
-        }
-
-        private void FrmCuentasBancarias_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

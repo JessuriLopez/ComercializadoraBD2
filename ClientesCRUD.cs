@@ -178,5 +178,10 @@ namespace ComercializadoraBD2
                 }
             }
         }
+
+        private void ClientesCRUD_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

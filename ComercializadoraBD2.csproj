@@ -59,6 +59,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FremCUentasBancariasCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FremCUentasBancariasCliente.Designer.cs">
+      <DependentUpon>FremCUentasBancariasCliente.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmCategorias.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,6 +82,12 @@
     </Compile>
     <Compile Include="FrmCuentasBancarias.Designer.cs">
       <DependentUpon>FrmCuentasBancarias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDepositosBancarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDepositosBancarios.Designer.cs">
+      <DependentUpon>FrmDepositosBancarios.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmDetalleOrdenCompra.cs">
       <SubType>Form</SubType>
@@ -100,6 +112,12 @@
     </Compile>
     <Compile Include="FrmLotes.Designer.cs">
       <DependentUpon>FrmLotes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMenuFinanzas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMenuFinanzas.Designer.cs">
+      <DependentUpon>FrmMenuFinanzas.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmOrdenCompras.cs">
       <SubType>Form</SubType>
@@ -139,6 +157,9 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FremCUentasBancariasCliente.resx">
+      <DependentUpon>FremCUentasBancariasCliente.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmCategorias.resx">
       <DependentUpon>FrmCategorias.cs</DependentUpon>
     </EmbeddedResource>
@@ -147,6 +168,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmCuentasBancarias.resx">
       <DependentUpon>FrmCuentasBancarias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDepositosBancarios.resx">
+      <DependentUpon>FrmDepositosBancarios.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmDetalleOrdenCompra.resx">
       <DependentUpon>FrmDetalleOrdenCompra.cs</DependentUpon>
@@ -159,6 +183,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmLotes.resx">
       <DependentUpon>FrmLotes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMenuFinanzas.resx">
+      <DependentUpon>FrmMenuFinanzas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmOrdenCompras.resx">
       <DependentUpon>FrmOrdenCompras.cs</DependentUpon>

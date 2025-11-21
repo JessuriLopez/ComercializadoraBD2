@@ -32,5 +32,10 @@ namespace ComercializadoraBD2
             f.ShowDialog();
             this.Show();
         }
+
+        private void FrmInicioOrdenesCompras_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
