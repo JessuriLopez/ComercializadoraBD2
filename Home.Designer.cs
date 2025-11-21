@@ -95,6 +95,7 @@
             this.btnFinanzas.Text = "Finanzas";
             this.btnFinanzas.UseVisualStyleBackColor = true;
             this.btnFinanzas.UseWaitCursor = true;
+            this.btnFinanzas.Click += new System.EventHandler(this.btnFinanzas_Click);
             // 
             // btnProduccion
             // 
