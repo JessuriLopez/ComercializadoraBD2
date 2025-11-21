@@ -31,5 +31,37 @@ namespace ComercializadoraBD2
             f.ShowDialog();
             this.Show();
         }
+
+        private void FrmCompras_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnRecepcionesCompras_Click(object sender, EventArgs e)
+        {
+            FrmInicioRecepciones f = new FrmInicioRecepciones();
+            this.Hide();
+            f.ShowDialog();
+            this.Show();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            btnRecepcionesCompras.PerformClick();
+        }
+
+        private void btnDevolucionProveedores_Click(object sender, EventArgs e)
+        {
+            FrmInicioDevolucionesProveedor f = new FrmInicioDevolucionesProveedor();
+            this.Hide();
+            f.ShowDialog();
+            this.Show();
+
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            btnDevolucionProveedores.PerformClick();
+        }
     }
 }

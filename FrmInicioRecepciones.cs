@@ -10,32 +10,27 @@ using System.Windows.Forms;
 
 namespace ComercializadoraBD2
 {
-    public partial class FrmInicioOrdenesCompras : Form
+    public partial class FrmInicioRecepciones : Form
     {
-        public FrmInicioOrdenesCompras()
+        public FrmInicioRecepciones()
         {
             InitializeComponent();
         }
 
-        private void btnGuardarOrden_Click(object sender, EventArgs e)
+        private void btnAgregarRecepcion_Click(object sender, EventArgs e)
         {
-            FrmOrdenCompras f = new FrmOrdenCompras();
+            FrmRecepciones f = new FrmRecepciones();
             this.Hide();
             f.ShowDialog();
             this.Show();
         }
 
-        private void btnVerOrdenes_Click(object sender, EventArgs e)
+        private void btnVerRecepciones_Click(object sender, EventArgs e)
         {
-            FrmVerOrdenesDeCompra f = new FrmVerOrdenesDeCompra();
+            FrmVerRecepciones f = new FrmVerRecepciones();
             this.Hide();
             f.ShowDialog();
             this.Show();
-        }
-
-        private void FrmInicioOrdenesCompras_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
