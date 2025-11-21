@@ -274,13 +274,11 @@
     <EmbeddedResource Include="FrmProductos.resx">
       <DependentUpon>FrmProductos.cs</DependentUpon>
     </EmbeddedResource>
-<<<<<<< Updated upstream
     <EmbeddedResource Include="FrmRecepciones.resx">
       <DependentUpon>FrmRecepciones.cs</DependentUpon>
-=======
-    <EmbeddedResource Include="FrmSeguridad.resx">
+   <EmbeddedResource Include="FrmSeguridad.resx">
+   </EmbeddedResource>
       <DependentUpon>FrmSeguridad.cs</DependentUpon>
->>>>>>> Stashed changes
     </EmbeddedResource>
     <EmbeddedResource Include="frmVentas.resx">
       <DependentUpon>frmVentas.cs</DependentUpon>

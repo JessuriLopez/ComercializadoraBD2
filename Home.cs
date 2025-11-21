@@ -76,11 +76,6 @@ namespace ComercializadoraBD2
 
         private void btnReportes_Click(object sender, EventArgs e)
         {
-<<<<<<< Updated upstream
-            AbrirFormulario(new FrmInicioReportes());
-        }
-=======
-
             AbrirFormulario(new FrmInicioReportes());
         }
 
@@ -89,6 +84,5 @@ namespace ComercializadoraBD2
             MessageBox.Show("Botón Seguridad presionado");
         }
 
->>>>>>> Stashed changes
     }
 }
