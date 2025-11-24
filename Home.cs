@@ -84,5 +84,9 @@ namespace ComercializadoraBD2
             MessageBox.Show("Botón Seguridad presionado");
         }
 
+        private void btnFinanzas_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
